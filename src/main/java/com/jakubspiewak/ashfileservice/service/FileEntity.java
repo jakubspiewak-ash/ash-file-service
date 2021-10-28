@@ -18,7 +18,7 @@ import java.util.UUID;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class FileEntity {
+class FileEntity {
     @Id
     @GeneratedValue
     @Column(name = "id")
